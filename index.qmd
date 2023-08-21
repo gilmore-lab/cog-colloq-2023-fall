@@ -402,9 +402,14 @@ Richard Feynmann
 
 ---
 
+![Vision tasks used in Qian et al. 2022](include/img/qian-berenbaum-gilmore-tasks.png){fig-align="center"}
+
+---
+
 ![https://github.com/gilmore-lab/sex-differences-project](include/img/sex-diffs-project-github.png){fig-align="center"}
 
 ## {background-iframe="https://gilmore-lab.github.io/sex-differences-project/analysis/qian-berenbaum-gilmore.html"}
+
 
 ---
 
@@ -438,7 +443,17 @@ Richard Feynmann
 
 ---
 
-## Internal $\psi$ states not observable, but...
+## Lessons learned
+
+::: {.incremental}
+- Preregistration helps draw bright line between *confirmatory* and *exploratory* analyses
+- Power *curve* analyses (different $n$'s, effect sizes) informative and useful
+- Internally reproducible workflows $\rightarrow$ easier to share
+    - Especially scriptable figures!
+- More commonplace prior data sharing (by others) would have really helped
+:::
+
+## Internal $\psi$ states not directly observable, but...
 
 - Behaviors are!
 - Contexts can be!
