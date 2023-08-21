@@ -406,6 +406,14 @@ Richard Feynmann
 
 ---
 
+![Mental rotation task](include/img/mental-rotation-task.png){fig-align="center"}
+
+---
+
+![Hobbies task](include/img/hobbies.png){fig-align="center"}
+
+---
+
 ![https://github.com/gilmore-lab/sex-differences-project](include/img/sex-diffs-project-github.png){fig-align="center"}
 
 ## {background-iframe="https://gilmore-lab.github.io/sex-differences-project/analysis/qian-berenbaum-gilmore.html"}
@@ -446,12 +454,82 @@ Richard Feynmann
 ## Lessons learned
 
 ::: {.incremental}
+- Replications are good
 - Preregistration helps draw bright line between *confirmatory* and *exploratory* analyses
 - Power *curve* analyses (different $n$'s, effect sizes) informative and useful
 - Internally reproducible workflows $\rightarrow$ easier to share
     - Especially scriptable figures!
-- More commonplace prior data sharing (by others) would have really helped
 :::
+
+---
+
+::: {.incremental}
+- More commonplace prior data sharing (by others) would have really helped
+- Plot (all of) your data
+:::
+
+---
+
+::: {.columns}
+
+
+::: {.column width=50%}
+**Contrast Task**
+
+![](include/img/336-contrast-staircase)
+
+:::
+
+::: {.column width=50%}
+**Motion Task**
+
+![](include/img/336-motion-staircase)
+
+:::
+
+::::
+
+---
+
+::: {.columns}
+
+
+::: {.column width=50%}
+**Contrast Task**
+
+![](include/img/350-contrast-staircase)
+
+:::
+
+::: {.column width=50%}
+**Motion Task**
+
+![](include/img/350-motion-staircase)
+
+:::
+
+::::
+
+---
+
+::: {.columns}
+
+
+::: {.column width=50%}
+**Contrast Task**
+
+![](include/img/393-contrast-staircase)
+
+:::
+
+::: {.column width=50%}
+**Motion Task**
+
+![](include/img/393-motion-staircase)
+
+:::
+
+::::
 
 ## Internal $\psi$ states not directly observable, but...
 
@@ -580,10 +658,11 @@ system(paste0("open ", db_vid))
 ## Gilmore's additions
 
 - You *can* learn to code, but do so in the context of solving a specific problem
+    - Quarto Qrew
 - Strive for *methods* reproducibility [@Goodman2016-fi]
     - Transparent to you $\rightarrow$ transparent to others
     - Reproducible for you $\rightarrow$ reproducible for others
-- Replicate and/or simulate
+- Replicate and/or simulate; visualize early and often
 - Preregister
 
 ## What about the *other* crisis?
