@@ -6,7 +6,7 @@ bibliography: include/bib/open-sci.bib
 csl: include/bib/apa.csl
 format: 
   revealjs:
-    footer: "No foolin'"
+    footer: "Cog Colloquium Fall 2023"
     logo: include/img/databraryr-logo.png
 ---
 
@@ -21,7 +21,7 @@ format:
 
 - Some crises...
 - Some struggling...
-- And their resolution
+- And some resolution...
 
 # Crises...
 
@@ -152,7 +152,7 @@ Center for Open Science
 
 ::: {.column width=60%}
 
->...This experience draws attention to a basic and fundamental concern about replication – it is hard to assess whether reported findings are credible.
+>...This experience draws attention to a basic and fundamental concern about replication – **it is hard to assess whether reported findings are credible**.
 
 <p style="text-align:center;">
 [@Errington2021-dp]
@@ -162,18 +162,84 @@ Center for Open Science
 
 ::::
 
-## What the *actual* *F*-test?
+## What the *actual* *F*-test??!
 
-## Crisis #2
+---
+
+![](https://miro.medium.com/v2/resize:fit:640/1*Nv4oqbfv5IwRSMdLGtFZuA.gif){fig-align="center"}
+
+---
+
+![Three Little Pigs](https://www.carloscamara.es/en/blog/2019/09/05/the-three-little-pigs-is-a-fairy-tale/featured.jpg){fig-align="center"}
+
+---
+
+![Pantheon](https://theromanguy.com/wp-content/uploads/pantheon-feature-real-900x420.jpeg){fig-align="center"}
+
+## Crisis #2a
 
 ::: {.incremental}
+
 - What are we talking about?
-- Psychology a science of behavior and internal experience (perception, cognition, emotion...)
-- What is the logical, *physical* status of psychological states ($\phi\leftarrow\rightarrow\psi$)?
-- If $\psi$ can't be measured directly
-    - And they can't
-    - They really can't
+- Psychology a science of *behavior* and *internal experience* (perception, cognition, emotion...)
+- What is the logical, *physical* status of internal psychological states ($\phi\leftarrow\rightarrow\psi$)?
+- If $\psi_{internal}$ can't be measured directly but $\psi_{external}$ can be
+
 :::
+
+---
+
+### Crisis #2b: Construct validity & measurement
+
+::: {.incremental}
+- Example: [Race](https://databrary.github.io/analytics/participant-demographics.html#race)
+- Example: [Ethnicity](https://databrary.github.io/analytics/participant-demographics.html#ethnicity)
+- Example: [Gender](https://databrary.github.io/analytics/participant-demographics.html#gender)
+- Example: "Does your child know or say the word..." (MB-CDI/[WordBank](http://wordbank.stanford.edu))
+:::
+
+---
+
+### Crisis #2c: What are the "laws" of psychological science?
+
+::: {.incremental}
+- [Fitts Law](https://en.wikipedia.org/wiki/Fitts%27s_law)
+- [Stevens' Power Law](https://en.wikipedia.org/wiki/Stevens%27s_power_law)
+- Cognition is often [systematically biased](https://en.wikipedia.org/wiki/List_of_cognitive_biases)
+:::
+
+---
+
+### Crisis #2d
+
+>...The under-specification of random effects imposes far stronger constraints on the generalizability of results than most researchers appreciate. Ignoring these constraints can dramatically inflate false-positive rates, and often leads researchers to draw sweeping verbal generalizations that lack a meaningful connection to the statistical quantities they are putatively based on. I argue that **failure to take the alignment between verbal and statistical expressions seriously lies at the heart of many of psychology's ongoing problems** (e.g., the replication crisis)
+
+<p style="text-align:center;">
+[@Yarkoni2020-se]
+</p>
+
+---
+
+### Crisis #2e
+
+![](https://www.rd.com/wp-content/uploads/2017/02/01-How-Bad-is-it-to-Share-a-Toothbrush-159311405-ABykov-760x506.jpg){fig-align="center"}
+
+---
+
+>...psychologists tend to treat other peoples’ theories like toothbrushes; no self-respecting individual wants to use anyone else’s.
+
+<p style="text-align:center;">
+[@Mischel2011-br]
+</p>
+
+---
+
+>The toothbrush culture undermines the building of a genuinely cumulative science, encouraging more parallel play and solo game playing, rather than building on each other’s directly relevant best work.
+
+<p style="text-align:center;">
+[@Mischel2011-br]
+</p>
+
 
 # Struggling
 
@@ -228,29 +294,6 @@ Yoda
 ---
 
 ![](https://m.media-amazon.com/images/I/41s1KW354HL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg){fig-align="center"}
----
-
-:::: {.columns}
-
-::: {.column width=40%}
-
-![](https://americanswhotellthetruth.org/wp-content/uploads/2022/06/Pat-Humphries-AWTT-Portrait.jpg){fig-align="center"}
-
-:::
-
-::: {.column width=60%}
-
->Oh, you thought it should be easy so the truth eluded you.
->
->The only way out is through 
-
-<p style="text-align:center;">
-"Baptism of Fire" by Pat Humphries
-</p>
-
-:::
-
-::::
 
 ---
 
@@ -418,7 +461,6 @@ Richard Feynmann
 
 ## {background-iframe="https://gilmore-lab.github.io/sex-differences-project/analysis/qian-berenbaum-gilmore.html"}
 
-
 ---
 
 ![[@Qian2022-yp]](https://raw.githubusercontent.com/gilmore-lab/sex-differences-project/master/analysis/paper_figs/fig-01-boxplots-new.jpg){fig-align="center"}
@@ -456,14 +498,19 @@ Richard Feynmann
 ::: {.incremental}
 - Replications are good
 - Preregistration helps draw bright line between *confirmatory* and *exploratory* analyses
-- Power *curve* analyses (different $n$'s, effect sizes) informative and useful
-- Internally reproducible workflows $\rightarrow$ easier to share
-    - Especially scriptable figures!
+- [Power *curve* analyses](https://gilmore-lab.github.io/sex-differences-project/analysis/preregistration/preregistration_power_analysis.html) (different $n$'s, effect sizes) especially informative and useful.
 :::
 
 ---
 
+![Power analysis curves from [@Qian2022-yp]](include/img/qian-berenbaum-gilmore-power-plot.png){fig-align="center"}
+
+## Lessons learned
+
 ::: {.incremental}
+- Don't fully understand relationship between sample size, power, and effect size? See [this exercise](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/ex05-apes.html) and [this app](https://rogilmore.shinyapps.io/PSYCH490-2023-APES/).
+- Internally reproducible workflows $\rightarrow$ easier to share
+    - Especially scriptable figures!
 - More commonplace prior data sharing (by others) would have really helped
 - Plot (all of) your data
 :::
@@ -476,14 +523,14 @@ Richard Feynmann
 ::: {.column width=50%}
 **Contrast Task**
 
-![](include/img/336-contrast-staircase)
+![](include/img/336-contrast-staircase.png)
 
 :::
 
 ::: {.column width=50%}
 **Motion Task**
 
-![](include/img/336-motion-staircase)
+![](include/img/336-motion-staircase.png)
 
 :::
 
@@ -497,14 +544,14 @@ Richard Feynmann
 ::: {.column width=50%}
 **Contrast Task**
 
-![](include/img/350-contrast-staircase)
+![](include/img/350-contrast-staircase.png)
 
 :::
 
 ::: {.column width=50%}
 **Motion Task**
 
-![](include/img/350-motion-staircase)
+![](include/img/350-motion-staircase.png)
 
 :::
 
@@ -518,20 +565,87 @@ Richard Feynmann
 ::: {.column width=50%}
 **Contrast Task**
 
-![](include/img/393-contrast-staircase)
+![](include/img/393-contrast-staircase.png)
 
 :::
 
 ::: {.column width=50%}
 **Motion Task**
 
-![](include/img/393-motion-staircase)
+![](include/img/393-motion-staircase.png)
 
 :::
 
 ::::
 
-## Internal $\psi$ states not directly observable, but...
+---
+
+::: {.columns}
+
+::: {.column width=50%}
+**Contrast Task**
+
+![](include/img/336-contrast-rt-by-contr.png)
+
+:::
+
+::: {.column width=50%}
+**Motion Task**
+
+![](include/img/336-motion-rt-by-dur.png)
+
+:::
+
+::::
+
+---
+
+::: {.columns}
+
+::: {.column width=50%}
+**Contrast Task**
+
+![](include/img/350-contrast-rt-by-contr.png)
+
+:::
+
+::: {.column width=50%}
+**Motion Task**
+
+![](include/img/350-motion-rt-by-dur.png)
+
+:::
+
+::::
+
+---
+
+::: {.columns}
+
+::: {.column width=50%}
+**Contrast Task**
+
+![](include/img/393-contrast-rt-by-contr.png)
+
+:::
+
+::: {.column width=50%}
+**Motion Task**
+
+![](include/img/393-motion-rt-by-dur.png)
+
+:::
+
+::::
+
+## Lessons learned...
+
+- Working collaboratively "in the open" is hard
+- Open sciences practices take time and effort
+- Quick (& dirty) is, well...
+- Pay now or pay later...
+
+## Internal $\psi_{internal}$ states not directly observable, but...
 
 - Behaviors are!
 - Contexts can be!
@@ -644,36 +758,74 @@ system(paste0("open ", db_vid))
 ---
 
 - Preserve raw data
-- Create a central hub
+    - Avoid manual manipulations
+- Create a central project hub
 - Use (consistent) meaningful names
-- Preserve the journey
-- Avoid manual manipulations
-- Tidy your data
-- Metadata magic
+- Preserve the journey (use version control)
+- Tidy your data (longer vs. wider)
+- Document your data (Metadata magic)
 
 ---
 
 - Dr. Alaina Pearce, Open Science Bootcamp, Data management: Practicalities | [talk slides](https://penn-state-open-science.github.io/bootcamp-2023/pdf/2023_OpenScienceBootcamp-DataManagement.pdf)
 
-## Gilmore's additions
+## Gilmore's additions...
 
-- You *can* learn to code, but do so in the context of solving a specific problem
-    - Quarto Qrew
-- Strive for *methods* reproducibility [@Goodman2016-fi]
-    - Transparent to you $\rightarrow$ transparent to others
-    - Reproducible for you $\rightarrow$ reproducible for others
-- Replicate and/or simulate; visualize early and often
+- You *can* learn to code (and *should*), but do so in the context of solving a specific problem you care about
+    - [Quarto Qrew](https://penn-state-open-science.github.io/quarto-qrew/)
+- Strive for *methods* reproducibility [@Goodman2016-fi] in your own projects
+     
+## *Methods* reproducibility
+
+:::: {.columns}
+
+::: {.column width=50%}
+
+>Methods reproducibility refers to the provision of enough detail about study procedures and data so the same procedures could, in theory or in actuality, be exactly repeated. 
+
+<p style="text-align:center;">
+[@Goodman2016-fi]
+</p>
+
+:::
+
+::: {.column width=50%}
+- Does a typical journal article satisfy this?
+- Does project X from your lab group satisfy this?
+- Reproducible to your team $\rightarrow$ reproducible to others
+:::
+
+::::
+
+
+## Gilmore's additions...
+
+- Replicate and/or simulate
+- Visualize early and often
 - Preregister
+- Embed frequent quality assurance checks into your workflows
+- Distribute 'curation' burden throughout the project
 
-## What about the *other* crisis?
+## Idea
 
+- What if *all* first year projects were pre-registered replication studies with open materials, and were documented via a preprint published on [PsyArXiv](https://psyarxiv.com)?
+- What if the PSYCH 100 participant pool data were permissioned and available for research beyond lab-specific screening?
+
+## What about the *other* crises?
+
+::: {.incremental}
+- Psychological laws
+    - Fitts Law: Speed/accuracy trade-offs undermine rigor (quantity vs. quality)
+    - Cognitive biases: Must be guarded-against, see [@munafo_manifesto_2017]
+- Construct validity
+    - Need more, better, widely shared documentation about what was asked, by whom, in what context...
 - The one about the logical, physical status of $\psi$ states...
-- Progress, but that's another talk...
+    - Progress--I'm less confused than before--but that's another talk...
+:::
 
 ---
 
 ![[@Baker2016-rz]](include/img/baker-2016-repro-crisis.png){fig-align="center"}
-
 
 ## May all our crises be 'good' ones...
 
@@ -718,7 +870,7 @@ Robert Merton
 
 >If it was fun, they wouldn't have to pay you to do it.
 >
->*But now you have my great grandson to love and support, and he's a Gilmore, so they better...*
+>*But now that it's more fun, they still should pay you. Especially now you have my new great-grandson to love and support...*
 
 <p style="text-align:center;">
 Great Grandpa Jerry Gilmore
@@ -728,12 +880,11 @@ Great Grandpa Jerry Gilmore
 
 ::::
 
-
 # Resources
 
 ---
 
-```{r echo=TRUE, fig.align='center'}
+```{r echo=TRUE, fig.align='center', fig.cap="HTML slides from Rick Gilmore's talk on 2023-08-30"}
 qrcode::qr_code("https://gilmore-lab.github.io/cog-colloq-2023-fall/") |>
   plot()
 ```
