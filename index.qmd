@@ -19,9 +19,9 @@ format:
 
 ## Agenda
 
-- Some crises...
-- Some struggling...
-- And some resolution...
+- Crises...
+- Struggling...
+- And resolution...
 
 # Crises...
 
@@ -47,9 +47,9 @@ format:
 
 ![[@Baker2016-rz]](include/img/baker-2016-repro-factors.png){fig-align="center"}
 
----
+<!-- --- -->
 
-![[@Baker2016-rz]](include/img/baker-2016-repro-brushing-teeth.png){fig-align="center"}
+<!-- ![[@Baker2016-rz]](include/img/baker-2016-repro-brushing-teeth.png){fig-align="center"} -->
 
 ---
 
@@ -101,7 +101,7 @@ Center for Open Science
 
 ::: {.column width=60%}
 
->...the data needed to compute effect sizes and conduct power analyses was publicly accessible for just 4 of 193 experiments...none of the 193 experiments were described in sufficient detail in the original paper to enable us to design protocols to repeat the experiments...
+>...the **data needed to compute effect sizes and conduct power analyses was publicly accessible for just 4 of 193 experiments**...**none of the 193 experiments were described in sufficient detail** in the original paper to enable us to design protocols to repeat the experiments...
 
 <p style="text-align:center;">
 [@Errington2021-dp]
@@ -126,7 +126,7 @@ Center for Open Science
 
 ::: {.column width=60%}
 
->...While authors were extremely or very helpful for 41% of experiments, they were minimally helpful for 9% of experiments, and not at all helpful (or did not respond to us) for 32% of experiments...
+>...While authors were extremely or very helpful for 41% of experiments, **they were minimally helpful for 9% of experiments, and not at all helpful (or did not respond to us) for 32% of experiments**...
 
 <p style="text-align:center;">
 [@Errington2021-dp]
@@ -166,6 +166,26 @@ Center for Open Science
 
 ---
 
+>Why can't we just trust each other?
+
+---
+
+>If I have to review someone else's statistics, I'll stop reviewing.
+
+---
+
+>I'd never use data shared by X; I don't trust what they do.
+
+---
+
+>I don't have {time, permission, money} to {share data, share materials, pre-register a study, collect a large enough sample to be well-powered...}
+
+---
+
+>Back to the search for (statistical) significance!
+
+---
+
 ![](https://miro.medium.com/v2/resize:fit:640/1*Nv4oqbfv5IwRSMdLGtFZuA.gif){fig-align="center"}
 
 ---
@@ -176,20 +196,18 @@ Center for Open Science
 
 ![Pantheon](https://theromanguy.com/wp-content/uploads/pantheon-feature-real-900x420.jpeg){fig-align="center"}
 
-## Crisis #2a
+## Crisis #2a: Metaphysics
 
 ::: {.incremental}
-
 - What are we talking about?
 - Psychology a science of *behavior* and *internal experience* (perception, cognition, emotion...)
 - What is the logical, *physical* status of internal psychological states ($\phi\leftarrow\rightarrow\psi$)?
 - If $\psi_{internal}$ can't be measured directly but $\psi_{external}$ can be
-
 :::
 
 ---
 
-### Crisis #2b: Construct validity & measurement
+### Crisis #2b: Construct validity
 
 ::: {.incremental}
 - Example: [Race](https://databrary.github.io/analytics/participant-demographics.html#race)
@@ -210,7 +228,11 @@ Center for Open Science
 
 ---
 
-### Crisis #2d
+![https://149365049.v2.pressablecdn.com/wp-content/uploads/2014/07/6-blind-men-hans-1024x654.jpg](https://149365049.v2.pressablecdn.com/wp-content/uploads/2014/07/6-blind-men-hans-1024x654.jpg){fig-align="center"}
+
+---
+
+### Crisis #2d: Generalizability
 
 >...The under-specification of random effects imposes far stronger constraints on the generalizability of results than most researchers appreciate. Ignoring these constraints can dramatically inflate false-positive rates, and often leads researchers to draw sweeping verbal generalizations that lack a meaningful connection to the statistical quantities they are putatively based on. I argue that **failure to take the alignment between verbal and statistical expressions seriously lies at the heart of many of psychology's ongoing problems** (e.g., the replication crisis)
 
@@ -220,7 +242,7 @@ Center for Open Science
 
 ---
 
-### Crisis #2e
+### Crisis #2e: Toothbrush culture
 
 ![](https://www.rd.com/wp-content/uploads/2017/02/01-How-Bad-is-it-to-Share-a-Toothbrush-159311405-ABykov-760x506.jpg){fig-align="center"}
 
@@ -240,8 +262,15 @@ Center for Open Science
 [@Mischel2011-br]
 </p>
 
-
 # Struggling
+
+---
+
+![https://images.agoramedia.com/wte3.0/gcms/Why-Babies-Love-Mirrors-722x406.jpg](https://images.agoramedia.com/wte3.0/gcms/Why-Babies-Love-Mirrors-722x406.jpg){fig-align="center"}
+
+---
+
+![https://www.southmiamirecovery.com/wp-content/uploads/2020/07/Picture1-300x240.png](https://www.southmiamirecovery.com/wp-content/uploads/2020/07/Picture1-300x240.png){fig-align="center"}
 
 ---
 
@@ -269,7 +298,7 @@ Jerry Gilmore
 
 ![](include/img/nobody-cares-work-harder.png){fig-align="center"}
 
-## The stoic's advice
+---
 
 :::: {.columns}
 
@@ -437,11 +466,34 @@ Richard Feynmann
 
 ::::
 
+---
+
+>…So I have just one wish for you—the good luck to be somewhere where you are free to maintain the kind of integrity I have described, and where you do not feel forced by a need to maintain your position in the organization or financial support, or so on, to lose your integrity. May you have that freedom.
+
+<p style="text-align:center;">
+[@Feynman1974-ld]
+</p>
+
 # Resolution
 
 ---
 
-![[@Qian2022-yp]](include/img/qian-berenbaum-gilmore.png){figure-align="center"}
+<div style="text-align:center;">
+<iframe src="https://giphy.com/embed/BtEw37CXZti8yfq3Ke" width="480" height="315" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/PermissionIO-power-bruce-almighty-ive-got-the-BtEw37CXZti8yfq3Ke">via GIPHY</a></p>
+</div>
+
+---
+
+![@Qian2022-yp](include/img/qian-berenbaum-gilmore.png){figure-align="center"}
+
+---
+
+## Motivation
+
+- Sex differences ($M>F$) in vision [@Shaqiri2018-ys]: especially contrast sensitivity [@Abramov2012-da], motion sensitivity [@Murray2018-vn; @Qian2021-eu].
+- Sex differences spatial cognition (e.g., mental rotation) and activity choices.
+- Do these replicate?
+- Do they relate to one another?
 
 ---
 
@@ -459,7 +511,6 @@ Richard Feynmann
 
 ![https://github.com/gilmore-lab/sex-differences-project](include/img/sex-diffs-project-github.png){fig-align="center"}
 
-## {background-iframe="https://gilmore-lab.github.io/sex-differences-project/analysis/qian-berenbaum-gilmore.html"}
 
 ---
 
@@ -497,23 +548,51 @@ Richard Feynmann
 
 ::: {.incremental}
 - Replications are good
-- Preregistration helps draw bright line between *confirmatory* and *exploratory* analyses
-- [Power *curve* analyses](https://gilmore-lab.github.io/sex-differences-project/analysis/preregistration/preregistration_power_analysis.html) (different $n$'s, effect sizes) especially informative and useful.
+    - And uncommon
+    - More commonplace prior data sharing (by others) would have really helped
 :::
 
 ---
 
-![Power analysis curves from [@Qian2022-yp]](include/img/qian-berenbaum-gilmore-power-plot.png){fig-align="center"}
+## Lessons learned
+
+- Preregistration helps draw bright line between *confirmatory* and *exploratory* analyses
+    - Hard, but useful discipline
 
 ## Lessons learned
 
-::: {.incremental}
-- Don't fully understand relationship between sample size, power, and effect size? See [this exercise](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/ex05-apes.html) and [this app](https://rogilmore.shinyapps.io/PSYCH490-2023-APES/).
-- Internally reproducible workflows $\rightarrow$ easier to share
+- [Power *curve* analyses](https://gilmore-lab.github.io/sex-differences-project/analysis/preregistration/preregistration_power_analysis.html) (different $n$'s, effect sizes) especially informative and useful.
+
+![Power analysis curves from [@Qian2022-yp]](include/img/qian-berenbaum-gilmore-power-plot.png){fig-align="center"}
+
+---
+
+- Don't fully understand relationship between sample size, power, and effect size? 
+    - See [this exercise](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/ex05-apes.html) and [this app](https://rogilmore.shinyapps.io/PSYCH490-2023-APES/).
+    
+---
+    
+- We need bigger samples...
+    
+>...Assuming a realistic range of prior probabilities for null hypotheses, false report probability is likely to exceed 50% for the whole (psychology and cognitive neuroscience) literature. In light of our findings, the recently reported low replication success in psychology is realistic, and worse performance may be expected for cognitive neuroscience. [@Szucs2017-fc]
+
+## Lessons learned
+
+- Internally reproducible workflows
+    - Bolster confidence ("don't fool yourself")
+    - Easier to share with collaborators, the world
     - Especially scriptable figures!
-- More commonplace prior data sharing (by others) would have really helped
+    
+## {background-iframe="https://gilmore-lab.github.io/sex-differences-project/analysis/qian-berenbaum-gilmore.html"}
+
+---
+
+- R Markdown & Quarto especially useful tools.
+- [Jupyter notebooks](https://jupyter.org/) also great; see Mike Burhnam's workshop at the [Open Science Bootcamp](https://penn-state-open-science.github.io/bootcamp-2023/day_2.html#day_2_pm_session_4).
+
+## Lessons learned
+
 - Plot (all of) your data
-:::
 
 ---
 
@@ -641,7 +720,7 @@ Richard Feynmann
 ## Lessons learned...
 
 - Working collaboratively "in the open" is hard
-- Open sciences practices take time and effort
+- Open science practices take time and effort
 - Quick (& dirty) is, well...
 - Pay now or pay later...
 
@@ -797,12 +876,14 @@ system(paste0("open ", db_vid))
 
 ::::
 
-
 ## Gilmore's additions...
 
 - Replicate and/or simulate
 - Visualize early and often
 - Preregister
+
+---
+
 - Embed frequent quality assurance checks into your workflows
 - Distribute 'curation' burden throughout the project
 
@@ -810,6 +891,11 @@ system(paste0("open ", db_vid))
 
 - What if *all* first year projects were pre-registered replication studies with open materials, and were documented via a preprint published on [PsyArXiv](https://psyarxiv.com)?
 - What if the PSYCH 100 participant pool data were permissioned and available for research beyond lab-specific screening?
+
+## Open science practices need not be all or none
+
+- Greater openness $\rightarrow$ closer match between idealistic values and practical concerns
+- "Good enough" is still good
 
 ## What about the *other* crises?
 
@@ -888,7 +974,6 @@ Great Grandpa Jerry Gilmore
 qrcode::qr_code("https://gilmore-lab.github.io/cog-colloq-2023-fall/") |>
   plot()
 ```
-
 
 ## About
 
