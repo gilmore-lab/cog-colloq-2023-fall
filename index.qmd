@@ -557,7 +557,7 @@ Richard Feynmann
     - And sadly uncommon
     - More commonplace prior data & materials sharing (by others) would have really helped.
     - Bigger (combined) samples $\rightarrow$ higher power to detect smaller effects.
-    - Didn't ask, but shouldn't have to; most authors don't even when asked [@Watson2022-ox].
+    - Didn't ask, but shouldn't have to; most authors don't share even when asked [@Watson2022-ox; @Gabelica2022-nt; @Tedersoo2021-ad; @Vanpaemel2015-zr; @Wicherts2006-de] **even by a journal editor** [Miyakawa2020-wu].
     - Wrote (new) code for both vision tasks (and shared it).
 :::
 
