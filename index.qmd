@@ -201,8 +201,8 @@ Center for Open Science
 ::: {.incremental}
 - What are we talking about?
 - Psychology a science of *behavior* and *internal experience* (perception, cognition, emotion...)
-- What is the logical, *physical* status of internal psychological states ($\phi\leftarrow\rightarrow\psi$)?
-- If $\psi_{internal}$ can't be measured directly but $\psi_{external}$ can be
+- What is the logical, *physical* status of internal psychological states ($\Phi\leftarrow\rightarrow\Psi$)?
+- If $\Psi_{internal}$ can't be measured directly but $\Psi_{external}$ can be
 :::
 
 ---
@@ -212,7 +212,7 @@ Center for Open Science
 ::: {.incremental}
 - Example: [Race](https://databrary.github.io/analytics/participant-demographics.html#race)
 - Example: [Ethnicity](https://databrary.github.io/analytics/participant-demographics.html#ethnicity)
-- Example: [Gender](https://databrary.github.io/analytics/participant-demographics.html#gender)
+- Example: [Gender](https://databrary.github.io/analytics/participant-demographics.html#gender) vs. Sex
 - Example: "Does your child know or say the word..." (MB-CDI/[WordBank](http://wordbank.stanford.edu))
 :::
 
@@ -228,7 +228,7 @@ Center for Open Science
 
 ---
 
-![https://149365049.v2.pressablecdn.com/wp-content/uploads/2014/07/6-blind-men-hans-1024x654.jpg](https://149365049.v2.pressablecdn.com/wp-content/uploads/2014/07/6-blind-men-hans-1024x654.jpg){fig-align="center"}
+![<https://149365049.v2.pressablecdn.com/wp-content/uploads/2014/07/6-blind-men-hans-1024x654.jpg>](https://149365049.v2.pressablecdn.com/wp-content/uploads/2014/07/6-blind-men-hans-1024x654.jpg){fig-align="center"}
 
 ---
 
@@ -274,6 +274,12 @@ Center for Open Science
 
 ---
 
+<div style="text-align:center;">
+<iframe src="https://giphy.com/embed/J2zwN64xc4wgw" width="397" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/baby-blocks-fuck-it-J2zwN64xc4wgw">via GIPHY</a></p>
+</div>
+
+---
+
 :::: {.columns}
 
 ::: {.column width=40%}
@@ -304,7 +310,7 @@ Jerry Gilmore
 
 ::: {.column width=40%}
 
-![https://static.wikia.nocookie.net/starwars/images/d/d6/Yoda_SWSB.png/revision/latest?cb=20150206140125](include/img/Yoda_SWSB.webp){fig-align="center"}
+![<https://static.wikia.nocookie.net/starwars/images/d/d6/Yoda_SWSB.png/revision/latest?cb=20150206140125>](include/img/Yoda_SWSB.webp){fig-align="center"}
 
 :::
 
@@ -468,7 +474,7 @@ Richard Feynmann
 
 ---
 
->…So I have just one wish for you—the good luck to be somewhere where you are free to maintain the kind of integrity I have described, and where you do not feel forced by a need to maintain your position in the organization or financial support, or so on, to lose your integrity. May you have that freedom.
+>…So I have just one wish for you—the good luck to be somewhere where you are free to maintain the kind of integrity I have described, and where you do not feel forced by a need to maintain your position in the organization or financial support, or so on, to lose your integrity. **May you have that freedom**.
 
 <p style="text-align:center;">
 [@Feynman1974-ld]
@@ -490,7 +496,7 @@ Richard Feynmann
 
 ## Motivation
 
-- Sex differences ($M>F$) in vision [@Shaqiri2018-ys]: especially contrast sensitivity [@Abramov2012-da], motion sensitivity [@Murray2018-vn; @Qian2021-eu].
+- Sex^[Our study: "What was the sex you were assigned at birth?"] differences ($M>F$) in vision [@Shaqiri2018-ys]: especially contrast sensitivity [@Abramov2012-da], motion sensitivity [@Murray2018-vn; @Qian2021-eu].
 - Sex differences spatial cognition (e.g., mental rotation) and activity choices.
 - Do these replicate?
 - Do they relate to one another?
@@ -548,8 +554,11 @@ Richard Feynmann
 
 ::: {.incremental}
 - Replications are good
-    - And uncommon
-    - More commonplace prior data sharing (by others) would have really helped
+    - And sadly uncommon
+    - More commonplace prior data & materials sharing (by others) would have really helped.
+    - Bigger (combined) samples $\rightarrow$ higher power to detect smaller effects.
+    - Didn't ask, but shouldn't have to; most authors don't even when asked [@Watson2022-ox].
+    - Wrote (new) code for both vision tasks (and shared it).
 :::
 
 ---
@@ -558,6 +567,7 @@ Richard Feynmann
 
 - Preregistration helps draw bright line between *confirmatory* and *exploratory* analyses
     - Hard, but useful discipline
+    - Included several post-registration exploratory analyses, including one suggested by reviewer.
 
 ## Lessons learned
 
@@ -581,13 +591,14 @@ Richard Feynmann
 - Internally reproducible workflows
     - Bolster confidence ("don't fool yourself")
     - Easier to share with collaborators, the world
+    - Always in a "share-able" form
     - Especially scriptable figures!
     
 ## {background-iframe="https://gilmore-lab.github.io/sex-differences-project/analysis/qian-berenbaum-gilmore.html"}
 
 ---
 
-- R Markdown & Quarto especially useful tools.
+- [R Markdown](https://rmarkdown.rstudio.com) & [Quarto](https://quarto.org) especially powerful tools for 'literate programming' [@knuth_undated-mi; @Knuth1984-ot] : combining text, links, images, code, analyses into HTML, PDF, .docx, .pptx, documents or websites.
 - [Jupyter notebooks](https://jupyter.org/) also great; see Mike Burhnam's workshop at the [Open Science Bootcamp](https://penn-state-open-science.github.io/bootcamp-2023/day_2.html#day_2_pm_session_4).
 
 ## Lessons learned
@@ -724,7 +735,7 @@ Richard Feynmann
 - Quick (& dirty) is, well...
 - Pay now or pay later...
 
-## Internal $\psi_{internal}$ states not directly observable, but...
+## $\Psi_{internal}$ states not directly observable, but...
 
 - Behaviors are!
 - Contexts can be!
@@ -887,6 +898,14 @@ system(paste0("open ", db_vid))
 - Embed frequent quality assurance checks into your workflows
 - Distribute 'curation' burden throughout the project
 
+## {background-iframe="https://gilmore-lab.github.io/sex-differences-project/analysis/qian-berenbaum-gilmore.html"}
+
+## {background-iframe="https://penn-state-open-science.github.io/bootcamp-2023/"}
+
+## {background-iframe="https://penn-state-open-science.github.io/survey-fall-2022/"}
+
+## {background-iframe="https://play-behaviorome.github.io/KoBoToolbox"}
+
 ## Idea
 
 - What if *all* first year projects were pre-registered replication studies with open materials, and were documented via a preprint published on [PsyArXiv](https://psyarxiv.com)?
@@ -948,6 +967,26 @@ Robert Merton
 
 ::: {.column width=40%}
 
+Alvin Henry ("Sonny") Gilmore
+
+:::
+
+::: {.column width=60%}
+
+<div style="text-align:center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8Pj-YEQbojk?si=FuUdWLCEnAJ_c3bT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+:::
+
+::::
+
+---
+
+:::: {.columns}
+
+::: {.column width=40%}
+
 ![](include/img/gilmore-jerry.png)
 
 :::
@@ -956,7 +995,7 @@ Robert Merton
 
 >If it was fun, they wouldn't have to pay you to do it.
 >
->*But now that it's more fun, they still should pay you. Especially now you have my new great-grandson to love and support...*
+>*But now that it's more fun, they still should pay you. Especially now that you have my new great-grandson to love and support...*
 
 <p style="text-align:center;">
 Great Grandpa Jerry Gilmore
