@@ -12,8 +12,8 @@ format:
 
 ## Support
 
-- National Institutes of Health, R01-HD094830
-- National Science Foundation, OAS-2032713
+- National Institutes of Health, [R01-HD094830](https://grantome.com/grant/NIH/R01-HD094830-01)
+- National Science Foundation, [OAS-2032713](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2032713&HistoricalAwards=false)
 - John S. Templeton Foundation
 - Penn State Child Study Center
 
@@ -266,11 +266,11 @@ Center for Open Science
 
 ---
 
-![https://images.agoramedia.com/wte3.0/gcms/Why-Babies-Love-Mirrors-722x406.jpg](https://images.agoramedia.com/wte3.0/gcms/Why-Babies-Love-Mirrors-722x406.jpg){fig-align="center"}
+![Source: <https://images.agoramedia.com/wte3.0/gcms/Why-Babies-Love-Mirrors-722x406.jpg>](https://images.agoramedia.com/wte3.0/gcms/Why-Babies-Love-Mirrors-722x406.jpg){fig-align="center"}
 
 ---
 
-![https://www.southmiamirecovery.com/wp-content/uploads/2020/07/Picture1-300x240.png](https://www.southmiamirecovery.com/wp-content/uploads/2020/07/Picture1-300x240.png){fig-align="center"}
+![Source: <https://www.southmiamirecovery.com/wp-content/uploads/2020/07/Picture1-300x240.png>](https://www.southmiamirecovery.com/wp-content/uploads/2020/07/Picture1-300x240.png){fig-align="center"}
 
 ---
 
@@ -1014,8 +1014,39 @@ Alvin Henry ("Sonny") Gilmore, 2023-
 >*But now that it's more fun, they still should pay you. Especially now that you have my new great-grandson to love and support...*
 
 <p style="text-align:center;">
-Great Grandpa Jerry Gilmore
+*Great Grandpa* Jerry Gilmore
 </p>
+
+:::
+
+::::
+
+---
+
+### No foolin': May all our crises be 'good' ones
+
+:::: {.columns}
+
+::: {.column width=60%}
+<p style="text-align:center;">
+**Rick Gilmore**</br>
+rog1 AT-SYMBOL psu PERIOD edu</br>
+</br>
+114 Moore</br>
+</br>
+[github.com/gilmore-lab](https://github.com/gilmore-lab)</br>
+[github.com/psu-psychology](https://github.com/psu-psychology)</br>
+[github.com/penn-state-open-science](https://github.com/penn-state-open-science)</br>
+</p>
+
+:::
+
+::: {.column width=40%}
+
+```{r fig.align='center'}
+qrcode::qr_code("https://gilmore-lab.github.io/cog-colloq-2023-fall/") |>
+  plot()
+```
 
 :::
 
@@ -1032,12 +1063,12 @@ qrcode::qr_code("https://gilmore-lab.github.io/cog-colloq-2023-fall/") |>
 
 ## About
 
-This talk was produced using [Quarto](https://quarto.org), using the [RStudio](https://posit.co/products/open-source/rstudio/) 
+This talk was produced using [Quarto](https://quarto.org) with the [RStudio](https://posit.co/products/open-source/rstudio/) 
 Integrated Development Environment (IDE), version 2023.6.2.561, [@rstudio_cite].
 
 The source files are in R and R Markdown, then rendered to HTML using the
 [revealJS](https://revealjs.com) framework. 
-The HTML slides are hosted in a [GitHub repo](https://github.com/gilmore-lab/cog-colloq-2023-fall) and served by GitHub pages: 
+The HTML slides are hosted in a [GitHub repo](https://github.com/gilmore-lab/cog-colloq-2023-fall) and served by the GitHub pages service at the following URL: 
 <https://gilmore-lab.github.io/cog-colloq-2023-fall/>
 
 ```{r}
