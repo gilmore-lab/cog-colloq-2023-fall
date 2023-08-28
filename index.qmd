@@ -164,7 +164,7 @@ Center for Open Science
 
 ## What the *actual* *F*-test??!
 
----
+## What colleagues say...
 
 >Why can't we just trust each other?
 
@@ -201,7 +201,7 @@ Center for Open Science
 ::: {.incremental}
 - What are we talking about?
 - Psychology a science of *behavior* and *internal experience* (perception, cognition, emotion...)
-- What is the logical, *physical* status of internal psychological states ($\Phi\leftarrow\rightarrow\Psi$)?
+- What is the logical, *physical* status ($\Phi$) of psychological states ($\Psi$)?
 - If $\Psi_{internal}$ can't be measured directly but $\Psi_{external}$ can be
 :::
 
@@ -513,10 +513,6 @@ Richard Feynmann
 
 ![Hobbies task](include/img/hobbies.png){fig-align="center"}
 
----
-
-![https://github.com/gilmore-lab/sex-differences-project](include/img/sex-diffs-project-github.png){fig-align="center"}
-
 
 ---
 
@@ -550,24 +546,36 @@ Richard Feynmann
 
 ---
 
+![https://github.com/gilmore-lab/sex-differences-project](include/img/sex-diffs-project-github.png){fig-align="center"}
+
 ## Lessons learned
 
 ::: {.incremental}
+
 - Replications are good
     - And sadly uncommon
-    - More commonplace prior data & materials sharing (by others) would have really helped.
-    - Bigger (combined) samples $\rightarrow$ higher power to detect smaller effects.
-    - Didn't ask, but shouldn't have to; most authors don't share even when asked [@Watson2022-ox; @Gabelica2022-nt; @Tedersoo2021-ad; @Vanpaemel2015-zr; @Wicherts2006-de] **even by a journal editor** [Miyakawa2020-wu].
-    - Wrote (new) code for both vision tasks (and shared it).
-:::
+    - Bigger (combined) samples $\rightarrow$ higher power to detect smaller effects
+    - Don't we want to know the distribution of effect sizes | manipulations X, Y, Z?
 
----
+:::
 
 ## Lessons learned
 
+::: {.incremental}
+- Data sharing is good
+    - Didn't ask original authors for data, but shouldn't have to.
+    - Most authors don't share even when asked [@Watson2022-ox; @Gabelica2022-nt; @Tedersoo2021-ad; @Vanpaemel2015-zr; @Wicherts2006-de] **even by a journal editor!** [@Miyakawa2020-wu].
+    - Wrote (new) code for both vision tasks (and shared it).
+:::
+
+## Lessons learned
+
+::: {.incremental}
 - Preregistration helps draw bright line between *confirmatory* and *exploratory* analyses
     - Hard, but useful discipline
     - Included several post-registration exploratory analyses, including one suggested by reviewer.
+    - "Causal" analysis: Vision better predictor of mental rotation scores than sex.
+:::
 
 ## Lessons learned
 
@@ -580,20 +588,22 @@ Richard Feynmann
 - Don't fully understand relationship between sample size, power, and effect size? 
     - See [this exercise](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/ex05-apes.html) and [this app](https://rogilmore.shinyapps.io/PSYCH490-2023-APES/).
     
----
+## Lessons learned
     
 - We need bigger samples...
     
->...Assuming a realistic range of prior probabilities for null hypotheses, false report probability is likely to exceed 50% for the whole (psychology and cognitive neuroscience) literature. In light of our findings, the recently reported low replication success in psychology is realistic, and worse performance may be expected for cognitive neuroscience. [@Szucs2017-fc]
+>...Assuming a realistic range of prior probabilities for null hypotheses, **false report probability is likely to exceed 50% for the whole (psychology and cognitive neuroscience) literature**. [@Szucs2017-fc]
 
 ## Lessons learned
 
+::: {.incremental}
 - Internally reproducible workflows
     - Bolster confidence ("don't fool yourself")
     - Easier to share with collaborators, the world
     - Always in a "share-able" form
     - Especially scriptable figures!
-    
+:::
+
 ## {background-iframe="https://gilmore-lab.github.io/sex-differences-project/analysis/qian-berenbaum-gilmore.html"}
 
 ---
@@ -604,6 +614,7 @@ Richard Feynmann
 ## Lessons learned
 
 - Plot (all of) your data
+- And save the plots, so you can use them later
 
 ---
 
@@ -734,6 +745,29 @@ Richard Feynmann
 - Open science practices take time and effort
 - Quick (& dirty) is, well...
 - Pay now or pay later...
+
+## Opening the file drawer
+
+:::: {.columns}
+
+::: {.column width=40%}
+
+![Peter Kohler](include/img/kohler-peter.jpeg){fig-align="center" width="30%"}
+
+![Shivam Vedak](include/img/vedak-shivam.jpeg){fig-align="center" width="30%"}
+
+:::
+
+::: {.column width=60%}
+
+![](include/img/kohler-vedak-gilmore.png){fig-align="center"}
+
+<p style="text-align:center;">
+[@Kohler2022-ld; @Gilmore_undated-tc]
+</p>
+:::
+
+::::
 
 ## $\Psi_{internal}$ states not directly observable, but...
 
@@ -892,9 +926,6 @@ system(paste0("open ", db_vid))
 - Replicate and/or simulate
 - Visualize early and often
 - Preregister
-
----
-
 - Embed frequent quality assurance checks into your workflows
 - Distribute 'curation' burden throughout the project
 
@@ -921,12 +952,18 @@ system(paste0("open ", db_vid))
 ::: {.incremental}
 - Psychological laws
     - Fitts Law: Speed/accuracy trade-offs undermine rigor (quantity vs. quality)
-    - Cognitive biases: Must be guarded-against, see [@munafo_manifesto_2017]
+    - Cognitive biases: Undermine rationality (including scientific inference); Must be guarded-against, see [@munafo_manifesto_2017]
 - Construct validity
-    - Need more, better, widely shared documentation about what was asked, by whom, in what context...
-- The one about the logical, physical status of $\psi$ states...
-    - Progress--I'm less confused than before--but that's another talk...
+    - Need more, better, widely shared documentation about what was asked/measured, by whom, in what context...
+
 :::
+
+---
+
+- The one about the logical, physical status of psychological states
+    - $\Phi\leftarrow\Psi$
+    - Progress--I'm less confused than before--but that's another talk...
+    - Everyone has a model; what's yours?
 
 ---
 
@@ -940,34 +977,13 @@ system(paste0("open ", db_vid))
 [@Korbmacher2023-jx]
 </p>
 
----
-
-:::: {.columns}
-
-::: {.column width="40%"}
-Robert Merton
-
-![](https://upload.wikimedia.org/wikipedia/en/0/08/Robert_K_Merton.jpg)
-:::
-
-::: {.column width="60%"}
-*What is science, really?*
-
-- a **stock of accumulated knowledge** (facts & findings)
-- a set of **characteristic methods** 
-- a **set of cultural values** [@Merton1973-vf, p. 268]
-
-:::
-
-::::
-
----
+## Coda
 
 :::: {.columns}
 
 ::: {.column width=40%}
 
-Alvin Henry ("Sonny") Gilmore
+Alvin Henry ("Sonny") Gilmore, 2023-
 
 :::
 
@@ -1016,8 +1032,8 @@ qrcode::qr_code("https://gilmore-lab.github.io/cog-colloq-2023-fall/") |>
 
 ## About
 
-This talk was produced using [Quarto](https://quarto.org), using the [RStudio](https://posit.co/products/open-source/rstudio/)
-Integrated Development Environment (IDE), version 2023.6.1.524.
+This talk was produced using [Quarto](https://quarto.org), using the [RStudio](https://posit.co/products/open-source/rstudio/) 
+Integrated Development Environment (IDE), version 2023.6.2.561, [@rstudio_cite].
 
 The source files are in R and R Markdown, then rendered to HTML using the
 [revealJS](https://revealjs.com) framework. 
