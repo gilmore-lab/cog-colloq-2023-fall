@@ -246,7 +246,18 @@ Center for Open Science
 
 ![](https://www.rd.com/wp-content/uploads/2017/02/01-How-Bad-is-it-to-Share-a-Toothbrush-159311405-ABykov-760x506.jpg){fig-align="center"}
 
----
+----
+
+:::: {.columns}
+
+
+::: {.column width=40%}
+
+![Walter Mischel](https://www.psychologicalscience.org/redesign/wp-content/uploads/2019/04/Observer-Online-MayJune19-WalterM-Big.png)
+
+:::
+
+::: {.column width=60%}
 
 >...psychologists tend to treat other peoples’ theories like toothbrushes; no self-respecting individual wants to use anyone else’s.
 
@@ -254,13 +265,31 @@ Center for Open Science
 [@Mischel2011-br]
 </p>
 
+:::
+
+::::
+
 ---
+
+:::: {.columns}
+
+::: {.column width=40%}
+
+![Walter Mischel](https://www.psychologicalscience.org/redesign/wp-content/uploads/2019/04/Observer-Online-MayJune19-WalterM-Big.png)
+
+:::
+
+::: {.column width=60%}
 
 >The toothbrush culture undermines the building of a genuinely cumulative science, encouraging more parallel play and solo game playing, rather than building on each other’s directly relevant best work.
 
 <p style="text-align:center;">
 [@Mischel2011-br]
 </p>
+
+:::
+
+::::
 
 # Struggling
 
@@ -546,7 +575,7 @@ Richard Feynmann
 
 ---
 
-![https://github.com/gilmore-lab/sex-differences-project](include/img/sex-diffs-project-github.png){fig-align="center"}
+![<https://github.com/gilmore-lab/sex-differences-project>](include/img/sex-diffs-project-github.png){fig-align="center"}
 
 ## Lessons learned
 
@@ -565,7 +594,7 @@ Richard Feynmann
 - Data sharing is good
     - Didn't ask original authors for data, but shouldn't have to.
     - Most authors don't share even when asked [@Watson2022-ox; @Gabelica2022-nt; @Tedersoo2021-ad; @Vanpaemel2015-zr; @Wicherts2006-de] **even by a journal editor!** [@Miyakawa2020-wu].
-    - Wrote (new) code for both vision tasks (and shared it).
+    - Shared data and wrote (new) code for both vision tasks (and shared it, too).
 :::
 
 ## Lessons learned
@@ -609,7 +638,8 @@ Richard Feynmann
 ---
 
 - [R Markdown](https://rmarkdown.rstudio.com) & [Quarto](https://quarto.org) especially powerful tools for 'literate programming' [@knuth_undated-mi; @Knuth1984-ot] : combining text, links, images, code, analyses into HTML, PDF, .docx, .pptx, documents or websites.
-- [Jupyter notebooks](https://jupyter.org/) also great; see Mike Burhnam's workshop at the [Open Science Bootcamp](https://penn-state-open-science.github.io/bootcamp-2023/day_2.html#day_2_pm_session_4).
+  - Consider joining our [Quarto Qrew](https://penn-state-open-science.github.io/quarto-qrew).
+- [Jupyter notebooks](https://jupyter.org/) also great; see Mike Burnham's workshop at the [Open Science Bootcamp](https://penn-state-open-science.github.io/bootcamp-2023/day_2.html#day_2_pm_session_4).
 
 ## Lessons learned
 
@@ -741,12 +771,34 @@ Richard Feynmann
 
 ## Lessons learned...
 
+::: {.incremental}
 - Working collaboratively "in the open" is hard
 - Open science practices take time and effort
 - Quick (& dirty) is, well...
+  - But you need to curate and conduct QA anyway
 - Pay now or pay later...
+:::
 
-## Opening the file drawer
+---
+
+```{r fig-embed-defer, echo=FALSE, fig.cap="Embed curation & QA or defer it"}
+library(ggplot2)
+x1 <- c(1, 2, 3, 4, 5, 6)
+y1 <- c(0, 0, 0, 0, 0, 1)
+x2 <- c(1, 2, 3, 4, 5, 6)
+y2 <- c(0, .2, .4, .6, .8, 1)
+when <- c(rep("defer", 6), rep("embed", 6))
+
+data.frame(time = c(x1, x2), cum_work = c(y1, y2), timing = when) |>
+  ggplot() +
+  aes(time, cum_work, color = timing) +
+  geom_point() +
+  geom_line() +
+  theme_classic() +
+  theme(legend.title = element_blank(), legend.position = "bottom")
+```
+
+## Lesson: Opening the file drawer
 
 :::: {.columns}
 
@@ -784,6 +836,8 @@ Richard Feynmann
 
 ## Play & Learning Across a Year (PLAY)
 
+::: {.incremental}
+
 - What do mothers and their infants actually **do** when they are together at home?
 - $n=$ 1,000 dyads
 - 30+ sites
@@ -791,12 +845,13 @@ Richard Feynmann
 - 1 hr natural behavior; video home tour; video-recorded survey questionnaires
 - All openly shared on [Databrary.org](https://databrary.org)
 
+:::
+
 ---
 
 - Full protocol and coding manual shared openly: <https://play-project.org>
-- R Markdown-based project status site: <https://play-behaviorome.github.io/KoBoToolbox/>
 - Novel curation strategies that reduce *post hoc* burden [@Soska2021-mh]
-- Extensive (and open) quality assurance protocols [@Soska2021-mh]
+- Extensive (and openly shared) quality assurance protocols [@Soska2021-mh]
 
 ---
 
@@ -813,7 +868,7 @@ Richard Feynmann
 
 - R Markdown-based project status site: <https://play-behaviorome.github.io/KoBoToolbox/>
 - Embed cleaning & simple visualizations into ongoing workflow
-- Regular updates and rendering
+- Regular (~ weekly) updates
 - Data are (nearly) always in some share-able form
 
 ---
@@ -843,11 +898,17 @@ Richard Feynmann
 
 - [Databrary.org](https://databrary.org) data library
     - Video + other identifiable/sensitive data
-    - Share openly, but not publicly, with restricted audience of researchers
+    - Share openly, but not publicly, with restricted audience of researchers^[Better for data about people even if de-identified.]
     - Share with explicit participant/parent permission
+    
+---
+
 - Scriptable (==reproducible) workflows via the Databrary API and the [*databraryr* package](https://github.com/databrary/databraryr/)
 
 ![](include/img/databraryr-logo.png){fig-align="center" width="25%"}
+
+- Python equivalent (*databrarypy*) in progress.
+
 ---
 
 ```{r echo=TRUE}
@@ -868,7 +929,7 @@ system(paste0("open ", db_vid))
 
 ---
 
-![https://penn-state-open-science.github.io/bootcamp-2023/](include/img/bootcamp-2023.png){fig-align="center"}
+![<https://penn-state-open-science.github.io/bootcamp-2023/>](include/img/bootcamp-2023.png){fig-align="center"}
 
 ## "Good enough" open science practices
 
@@ -937,15 +998,22 @@ system(paste0("open ", db_vid))
 
 ## {background-iframe="https://play-behaviorome.github.io/KoBoToolbox"}
 
-## Idea
+## Ideas
 
-- What if *all* first year projects were pre-registered replication studies with open materials, and were documented via a preprint published on [PsyArXiv](https://psyarxiv.com)?
+::: {.incremental}
+- What if we all shared our IRB protocols?
+- What if *all* first year projects were pre-registered replication studies with open materials, and were documented via a preprint published on [PsyArXiv](https://psyarxiv.com), cf [@Frank2012-fc]?
+- What if the typical masters was a [registered report](https://www.cos.io/initiatives/registered-reports)?
 - What if the PSYCH 100 participant pool data were permissioned and available for research beyond lab-specific screening?
+:::
 
 ## Open science practices need not be all or none
 
 - Greater openness $\rightarrow$ closer match between idealistic values and practical concerns
-- "Good enough" is still good
+
+---
+
+![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*hn9nGSNnalnFrSDlGHNctQ.png){fig-align="center"}
 
 ## What about the *other* crises?
 
@@ -977,26 +1045,6 @@ system(paste0("open ", db_vid))
 [@Korbmacher2023-jx]
 </p>
 
-## Coda
-
-:::: {.columns}
-
-::: {.column width=40%}
-
-Alvin Henry ("Sonny") Gilmore, 2023-
-
-:::
-
-::: {.column width=60%}
-
-<div style="text-align:center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8Pj-YEQbojk?si=FuUdWLCEnAJ_c3bT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-:::
-
-::::
-
 ---
 
 :::: {.columns}
@@ -1025,32 +1073,20 @@ Alvin Henry ("Sonny") Gilmore, 2023-
 
 ### No foolin': May all our crises be 'good' ones
 
-:::: {.columns}
-
-::: {.column width=60%}
 <p style="text-align:center;">
 **Rick Gilmore**</br>
 rog1 AT-SYMBOL psu PERIOD edu</br>
-</br>
 114 Moore</br>
-</br>
 [github.com/gilmore-lab](https://github.com/gilmore-lab)</br>
 [github.com/psu-psychology](https://github.com/psu-psychology)</br>
-[github.com/penn-state-open-science](https://github.com/penn-state-open-science)</br>
+[github.com/penn-state-open-science](https://github.com/penn-state-open-science)
 </p>
 
-:::
-
-::: {.column width=40%}
 
 ```{r fig.align='center'}
 qrcode::qr_code("https://gilmore-lab.github.io/cog-colloq-2023-fall/") |>
   plot()
 ```
-
-:::
-
-::::
 
 # Resources
 
