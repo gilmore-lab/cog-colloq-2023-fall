@@ -575,8 +575,6 @@ Richard Feynmann
 
 ---
 
-![<https://github.com/gilmore-lab/sex-differences-project>](include/img/sex-diffs-project-github.png){fig-align="center"}
-
 ## Lessons learned
 
 ::: {.incremental}
@@ -634,6 +632,10 @@ Richard Feynmann
 :::
 
 ## {background-iframe="https://gilmore-lab.github.io/sex-differences-project/analysis/qian-berenbaum-gilmore.html"}
+
+---
+
+![<https://github.com/gilmore-lab/sex-differences-project>](include/img/sex-diffs-project-github.png){fig-align="center"}
 
 ---
 
@@ -775,8 +777,8 @@ Richard Feynmann
 - Working collaboratively "in the open" is hard
 - Open science practices take time and effort
 - Quick (& dirty) is, well...
-  - But you need to curate and conduct QA anyway
-- Pay now or pay later...
+  - But you need to curate and conduct QA anyway, don't you?
+- Pay now (gradually) or pay (a lot) later...
 :::
 
 ---
@@ -898,8 +900,8 @@ data.frame(time = c(x1, x2), cum_work = c(y1, y2), timing = when) |>
 
 - [Databrary.org](https://databrary.org) data library
     - Video + other identifiable/sensitive data
-    - Share openly, but not publicly, with restricted audience of researchers^[Better for data about people even if de-identified.]
-    - Share with explicit participant/parent permission
+    - Share openly, but not publicly, with restricted community of researchers^[Better for data about people even if de-identified.] who are [authorized](https://databrary.org/about/agreement.html) by their institutions.
+    - Share with explicit [participant/parent permission](https://databrary.org/support/irb.html)
     
 ---
 
@@ -975,9 +977,13 @@ system(paste0("open ", db_vid))
 :::
 
 ::: {.column width=50%}
+
+::: {.incremental}
 - Does a typical journal article satisfy this?
 - Does project X from your lab group satisfy this?
 - Reproducible to your team $\rightarrow$ reproducible to others
+:::
+
 :::
 
 ::::
@@ -987,8 +993,7 @@ system(paste0("open ", db_vid))
 - Replicate and/or simulate
 - Visualize early and often
 - Preregister
-- Embed frequent quality assurance checks into your workflows
-- Distribute 'curation' burden throughout the project
+- Embed quality assurance checks & data curation into your workflows
 
 ## {background-iframe="https://gilmore-lab.github.io/sex-differences-project/analysis/qian-berenbaum-gilmore.html"}
 
@@ -1001,26 +1006,52 @@ system(paste0("open ", db_vid))
 ## Ideas
 
 ::: {.incremental}
-- What if we all shared our IRB protocols?
-- What if *all* first year projects were pre-registered replication studies with open materials, and were documented via a preprint published on [PsyArXiv](https://psyarxiv.com), cf [@Frank2012-fc]?
+- What if we all shared our IRB and task protocols?
+- What if *all* honors' theses or first year projects were pre-registered replication studies with open materials, and were documented via a preprint published on [PsyArXiv](https://psyarxiv.com) [e.g., @Frank2012-fc]?
 - What if the typical masters was a [registered report](https://www.cos.io/initiatives/registered-reports)?
 - What if the PSYCH 100 participant pool data were permissioned and available for research beyond lab-specific screening?
 :::
 
 ## Open science practices need not be all or none
 
-- Greater openness $\rightarrow$ closer match between idealistic values and practical concerns
+![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*hn9nGSNnalnFrSDlGHNctQ.png){fig-align="center"}
 
 ---
 
-![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*hn9nGSNnalnFrSDlGHNctQ.png){fig-align="center"}
+- Greater openness $\rightarrow$ closer match between idealistic values and practical concerns
+- Balance scientific norms [@Merton1973-vf] with counter-norms [@Mitroff1974-pp]
+    - see [PSYCH 490.009 Survey 02](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/survey-02.html)
+
+---
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Richard Feynmann
+
+![](https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Richard_Feynman_Nobel.jpg/220px-Richard_Feynman_Nobel.jpg)
+
+:::
+
+::: {.column width="60%"}
+
+> The first principle is that **you must not fool yourself—and you are the easiest person to fool**. So you have to be very careful about that. After you’ve not fooled yourself, it’s easy not to fool other scientists...
+
+<p style="text-align:center;">
+[@Feynman1974-ld]
+</p>
+
+:::
+
+::::
 
 ## What about the *other* crises?
 
 ::: {.incremental}
+
 - Psychological laws
     - Fitts Law: Speed/accuracy trade-offs undermine rigor (quantity vs. quality)
-    - Cognitive biases: Undermine rationality (including scientific inference); Must be guarded-against, see [@munafo_manifesto_2017]
+    - Cognitive biases: Undermine rationality (including scientific inference); Must guard against, see [@munafo_manifesto_2017]
 - Construct validity
     - Need more, better, widely shared documentation about what was asked/measured, by whom, in what context...
 
@@ -1081,7 +1112,6 @@ rog1 AT-SYMBOL psu PERIOD edu</br>
 [github.com/psu-psychology](https://github.com/psu-psychology)</br>
 [github.com/penn-state-open-science](https://github.com/penn-state-open-science)
 </p>
-
 
 ```{r fig.align='center'}
 qrcode::qr_code("https://gilmore-lab.github.io/cog-colloq-2023-fall/") |>
